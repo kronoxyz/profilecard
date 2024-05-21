@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+}
+
+.header {
+    color: white;
+    border-color: gray;
+    border-style: solid;
+}
+
+html {
+    background-image: url("../imgs/wallpaper.jpg");
+    background-repeat: space;
+    background-position: center;
+    padding: 30%;
+}
+
+p {
+    font-family: inherit;
+    padding: 8px;
+}
+
+a:link {
+    color: cyan;
+}
+a:visited {
+    color: blueviolet;
+    text-decoration: underline;
+}
