@@ -12,12 +12,12 @@ html {
     background-image: url("../imgs/wallpaper.jpg");
     background-repeat: space;
     background-position: center;
-    padding: 30%;
+    position: center;
+    padding: 20%;
 }
 
 p {
     font-family: inherit;
-    padding: 8px;
 }
 
 a:link {
