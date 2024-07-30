@@ -16,30 +16,27 @@ body {
 }
 
 .profile-frame img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
     border: solid 2px;
     border-color: #fa72ff;
+    margin-bottom: 20px;
+}
+
+.icons {
+    font-size: 1.2em;
+    color: gray;
+}
+
+.icons a:hover {
+    color:#fa72ff;
 }
 
 h1 {
     margin: 20px 0;
 }
-
-.icons img {
-    width: 40px;
-    height: 40px;
-    margin: 10px;
-    transition: transform 0.3s, filter 0.3s;
-}
-
-.icons img:hover {
-    transform: scale(1.2);
-    filter: hue-rotate(300deg);
-}
-
 footer {
     position: absolute;
     bottom: 20px;
